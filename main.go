@@ -7,6 +7,7 @@ import (
 	"github.com/go-martini/martini"
 )
 
+
 func main() {
 	message := os.Getenv("MESSAGE")
 	if message == "" {
